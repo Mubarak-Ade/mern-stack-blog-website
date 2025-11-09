@@ -5,7 +5,7 @@ import { Link } from "react-router";
 
 export const ProfileBanner = ({user, loading, error}) => {
 
-    const profilePic = `https://mern-stack-blog-website-xik0.onrender.com/${user?.profilePic}`
+    const profilePic = `https://mern-stack-blog-website-xik0.onrender.com${user?.profilePic}`
 
     return (
         <div className="flex gap-5 mb-5 px-5 py-4 border rounded-2xl">
