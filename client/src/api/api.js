@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-    baseURL: "http://localhost:4000/api",
+    baseURL: "https://mern-stack-blog-website-xik0.onrender.com",
 });
 
 export const setupInterceptors = (getState) => {
