@@ -33,7 +33,7 @@ export const Hero = () => {
                         category={post.category}
                         tags={post.tags}
                         author={post.author}
-                        image={`http://localhost:4000/${post?.image}`}
+                        image={`https://mern-stack-blog-website-xik0.onrender.com/${post?.image}`}
                     />
             </div>
         </div>
