@@ -29,7 +29,7 @@ export const ProfileForm = () => {
     const navigate = useNavigate();
 
     const [preview, setPreview] = useState(
-        user?.Profile ? `http://localhost:4000${user?.profilePic}` : Profile
+        user?.Profile ? `https://mern-stack-blog-website-xik0.onrender.com/${user?.profilePic}` : Profile
     );
 
     const schema = z.object({
