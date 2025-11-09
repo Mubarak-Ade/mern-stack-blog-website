@@ -8,7 +8,7 @@ export const AppBar = () => {
 
     const {user, loading, error, fetchUserInfo} = useDashboardStore();
 
-    const profilePic = `https://mern-stack-blog-website-xik0.onrender.com/${user?.profilePic}`
+    const profilePic = `https://mern-stack-blog-website-xik0.onrender.com${user?.profilePic}`
     
     return (
         <nav className="fixed z-50 flex justify-between right-0 left-0 top-0 items-center overflow-hidden bg-white border-b px-6 ml-(--sidebar-width)">
