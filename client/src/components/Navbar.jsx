@@ -17,7 +17,7 @@ const Navbar = () => {
     const [isFixed, setIsFixed] = useState(false);
     const [showMenu, setShowMenu] = useState(false);
 
-    const profilePic = `http://localhost:4000${user?.profile}`;
+    const profilePic = `https://mern-stack-blog-website-xik0.onrender.com${user?.profile}`;
 
     const navigate = useNavigate();
     const Logout = () => {
